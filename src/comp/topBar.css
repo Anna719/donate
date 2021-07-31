@@ -1,0 +1,29 @@
+.topBar{
+    width:100%;
+    height:100px;
+    background-image: url("../img/layer_a.png");
+    position:sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+.topImg{
+    width:140px;
+    height:40px;
+    margin: 15px;
+}
+.topButton{
+    margin: 15px;
+
+}
+.buttonLogin{
+    padding: 6px 20px 6px 20px;
+    border-radius: 14px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 3px solid  #709cb6;
+    color:#709cb6;
+    font-family: 'Gowun Dodum', sans-serif;
+    cursor: pointer;
+}

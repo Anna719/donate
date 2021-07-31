@@ -1,0 +1,52 @@
+.footer{
+    background-image: url("../img/layer_a.png");
+    height: 70vh;
+     position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerList{
+    position: absolute;
+    bottom: 30px;
+    margin: 40px;
+    list-style-type: none;
+}
+.centeredButton{
+    align-self: center;
+    top:30px;
+
+}
+.buttonDonate{
+    background-color: #86bfd4;
+    color: #cfe5ee;
+    padding: 4px 35px 4px 35px;
+    border-radius: 14px;
+    font-size: 30px;
+    border: none;
+    font-family: 'Gowun Dodum', sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.footerListItem{
+    padding: 5px;
+    color: #bdc4d6;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .footerList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+
+    }
+    .footerListItem{
+        font-size: 26px;
+        padding:0;
+        margin: 0;
+    }
+}
